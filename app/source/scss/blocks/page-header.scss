@@ -1,0 +1,130 @@
+.page-header {
+  color: white;
+
+  background-color: #30415d;
+  background-image: url("../img/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-header__wrapper {
+  width: 708px;
+  margin: 0 auto;
+  padding: 40px 8px;
+}
+
+.page-header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.page-header__logo {
+  display: block;
+}
+
+.page-header__nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.page-header__nav-item {
+  margin-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.page-header__nav-link {
+  font-family: "Montserrat", "Arial", serif;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+
+  &[href]:hover,
+  &[href]:focus {
+    opacity: 0.7;
+  }
+
+  &[href]:active {
+    opacity: 0.5;
+  }
+}
+
+.page-header__nav-item--current {
+  .page-header__nav-link {
+    color: #ffe26d;
+  }
+}
+
+.page-header__promo {
+  position: relative;
+
+  padding-top: 35px;
+  min-height: 500px;
+}
+
+.page-header__promo-title {
+  max-width: 500px;
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-family: "Montserrat", "Arial", serif;
+  font-size: 41px;
+  font-weight: 700;
+  color: white;
+}
+
+.page-header__promo-text {
+  max-width: 500px;
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-family: "Roboto", "Arial", serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}
+
+.page-header__promo-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+}
+
+.page-header__promo-label {
+  position: relative;
+
+  width: 7px;
+  height: 7px;
+  margin-right: 8px;
+
+  cursor: pointer;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 7px;
+    height: 7px;
+
+    background-color: #fff;
+    border-radius: 50%;
+
+    opacity: 0.5;
+  }
+}
+
+.page-header__promo-control:checked + .page-header__promo-label::before {
+  opacity: 1;
+}

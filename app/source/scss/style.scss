@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Helvetica"), url("../fonts/Helvetica.woff2"),
+    url("../fonts/Helvetica.woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Montserrat"), url("../fonts/Montserrat-Regular.woff2"),
+  url("../fonts/Montserrat-Regular.woff")
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Montserrat"), url("../fonts/Montserrat-Bold.woff2"),
+  url("../fonts/Montserrat-Bold.woff")
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local("Roboto"), url("../fonts/Roboto-Thin.woff2"),
+  url("../fonts/Roboto-Thin.woff")
+}
+
+@import "normalize";
+@import "visually-hidden";
+@import "blocks/button";
+@import "blocks/page-header";
