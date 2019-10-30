@@ -1,0 +1,71 @@
+.pricing {
+  width: 708px;
+  margin: 0 auto;
+  padding: 85px 8px;
+}
+
+.pricing__title {
+  margin-bottom: 45px;
+}
+
+.pricing__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.pricing__item {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+
+  &:not(:last-child)::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 2px;
+    height: 100%;
+
+    background-color: #e7e7e7;
+  }
+}
+
+.pricing__plan-name {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-family: "Montserrat", "Arial", serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.pricing__price {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-family: "Montserrat", "Arial", serif;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.pricing__description {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-family: "Helvetica", "Arial", serif;
+  font-size: 11px;
+  line-height: 22px;
+  color: #040405;
+  text-align: center;
+}

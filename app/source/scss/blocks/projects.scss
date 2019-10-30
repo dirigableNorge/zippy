@@ -18,6 +18,8 @@
 }
 
 .projects__item {
+  display: flex;
+  flex-direction: column;
   width: 350px;
 
   &:nth-child(odd) .projects__description {
