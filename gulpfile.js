@@ -21,7 +21,7 @@ gulp.task("style", function (done) {
         .pipe(sass())
         .pipe(autoprefixer())
         .pipe(gulp.dest("app/build/css"))
-        .pipe(minify())
+        //.pipe(minify())
         .pipe(rename("style.min.css"))
         .pipe(gulp.dest("app/build/css"));
     done();

@@ -1,0 +1,19 @@
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 110px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.socials__item:not(:nth-child(3n)) {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.social__link:hover path{
+  fill: #62497c;
+}

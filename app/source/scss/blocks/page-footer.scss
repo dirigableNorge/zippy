@@ -1,0 +1,44 @@
+.page-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 708px;
+  margin: 0 auto;
+  padding: 80px 8px 120px;
+}
+
+.page-footer__address {
+  width: 162px;
+}
+
+.page-footer__follow-us {
+  width: 162px;
+}
+
+.page-footer__contact-us{
+width: 162px;
+}
+
+.page-footer__title {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-family: "Montserrat", "Arial", serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #040405;
+}
+
+.page-footer__text {
+  margin: 0;
+
+  font-family: "Helvetica", "Arial", serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #040405;
+}
+
+.page-footer__socials {
+  margin: 0 auto;
+}
