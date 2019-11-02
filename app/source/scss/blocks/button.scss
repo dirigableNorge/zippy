@@ -33,3 +33,13 @@
   
   background-color: #ffe16b;
 }
+
+.button--dark {
+  color: white;
+  background-color: #62497c;
+}
+
+.button--dark:hover,
+.button--dark:focus {
+  background-color: #330033;
+}
