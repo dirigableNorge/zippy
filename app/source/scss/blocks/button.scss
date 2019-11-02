@@ -10,7 +10,7 @@
   text-transform: uppercase;
   color: #323232;
 
-  background-color: #ffe26d;
+  background-color: #ffe16b;
   border: none;
   border-radius: 3px;
 
@@ -21,4 +21,15 @@
     color: white;
     background-color: #62497c;
   }
+}
+
+.button--light {
+  background-color: #ececec;
+}
+
+.button--light:hover,
+.button--light:focus {
+  color: #323232;
+  
+  background-color: #ffe16b;
 }
